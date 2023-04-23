@@ -1,0 +1,39 @@
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background:var(--primary-color);
+}
+
+header #action-wrapper #openNav{
+    display:none;
+}
+
+header #action-wrapper #logoBrand {
+    width:80% !important;
+}
+
+header nav {
+    display:flex;
+    justify-content: space-around;
+    width:50%;
+}
+
+header nav div {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:.5rem 0;
+    transition: .7s all;
+    text-align:center;
+}
+
+header nav div:hover {
+    background: var(--second-color);
+}
+
+header nav div a {
+    font-size: 1.3rem;
+    font-weight: 600;    
+}

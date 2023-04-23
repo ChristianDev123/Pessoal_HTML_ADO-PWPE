@@ -1,0 +1,31 @@
+@import "./mobile/nav.css" screen and (max-width:768px);
+@import "./desktop/nav.css" screen and (min-width:768px);
+
+header{
+    width:100vw;
+}
+
+header #action-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background:var(--primary-color);
+    padding:.5rem .5rem;
+}
+
+header #action-wrapper #logoBrand {
+    background: whitesmoke;
+    display:flex;
+    border-radius: 1rem;
+    padding:.2rem .5rem;
+    width:18%;
+}
+
+header #action-wrapper #logoBrand img{
+    width:100%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}

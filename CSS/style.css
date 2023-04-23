@@ -1,0 +1,13 @@
+@import "./header/header.css";
+
+:root{
+    --primary-color:#1c953f;
+    --second-color: #146B2D;
+    --main-font:verdana;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
