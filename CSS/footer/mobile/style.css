@@ -1,0 +1,53 @@
+footer{
+    background: #16262E;
+}
+
+footer > section {
+    display:flex;
+}
+
+footer > section a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > section a:hover {
+    text-decoration: underline;
+}
+
+footer >  p {
+    color:white;
+    text-align: center;
+}
+
+/* links */
+footer > section section { 
+    width:100%;
+    padding: .5rem;
+}
+
+footer > section section#links ul li {
+    margin:.2rem 0;
+}
+
+/* contacts */
+
+
+footer > section section#contacts h4 {
+    color:white;
+    text-align:center;
+    margin-bottom:.2rem;
+    font-size:1.3rem;
+}
+
+footer > section section#contacts div{
+    margin:.2rem 0;
+    color:white;
+    text-align:right;
+    border-left:1px solid white;
+}
+
+footer > section section#contacts div:nth-child(1){
+    text-align:left;
+}
+

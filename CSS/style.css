@@ -1,4 +1,5 @@
 @import "./header/header.css";
+@import "./footer/style.css";
 
 :root{
     --primary-color:#1c953f;
