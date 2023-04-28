@@ -1,0 +1,72 @@
+main section#title-area > h1  {
+    text-align:center;
+    margin:0 .5rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color:var(--primary-color);
+}
+
+main section#content {
+    display:flex;
+    flex-direction: column;
+    gap:2.5rem;
+    margin:.7rem 2rem;
+}
+
+main section#content .about-services {
+    display:flex;
+    gap:1rem;
+    align-items: center;
+}
+
+main section#content .about-services:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+main section#content .about-services:nth-child(even) .image{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+main section#content .about-services:nth-child(odd) .text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+main section#content .about-services:nth-child(odd) .text h2{
+    text-align:center;
+}
+
+main section#content .about-services h2 {
+    color:var(--primary-color);
+}
+
+main section#content .about-services .image {
+    width:100%;
+    border-radius:1rem;
+}
+
+main section#content .about-services .image img {
+    width:35rem;
+}
+
+main section#content .about-services .text {
+    width:100%;
+}
+
+main section#content .about-services .text ul {
+    padding:1rem;
+}
+
+main section#content .about-services .text p,
+main section#content .about-services .text li {
+    font-size: 1.2rem;
+}
+
+main section#content .about-services .text h2 {
+    width:100%;
+    font-size: 1.3rem;
+}

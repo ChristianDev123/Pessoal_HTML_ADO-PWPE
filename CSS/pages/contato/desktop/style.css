@@ -1,0 +1,79 @@
+main section#title-area > h1  {
+    text-align:center;
+    margin:0 .5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color:var(--primary-color);
+}
+
+main section#content {
+    display:flex;
+    margin:.5rem;
+}
+
+main section#content section#form-area,
+main section#content section#info-area {
+    width:100%;
+    margin: .5rem;
+}
+
+main section#content section#form-area > h2 {
+    width:100%;
+    text-align:center;
+    margin:.7rem 0;
+    color:var(--primary-color);
+}
+
+main section#content section#form-area form fieldset legend {
+    color:var(--second-color);
+    font-size:1.1rem;
+    padding:.3rem;
+    font-weight: 500;
+}
+
+main section#content section#form-area form fieldset .form-input{
+    width:100%;
+    display:flex;
+    margin:.3rem 0;
+}
+
+main section#content section#form-area form fieldset .form-input:nth-child(5) {
+    flex-direction: column;
+}
+
+main section#content section#form-area form fieldset .form-input:nth-child(5) textarea {
+    width:auto;
+    margin:.3rem;
+}
+
+main section#content section#form-area form fieldset .form-input label {
+    min-width: 7ch;
+    margin: 0 1ch;
+}
+
+main section#content section#form-area form fieldset .form-input input{
+    width:100%;
+    margin:0 .3rem;
+}
+
+main section#content section#info-area {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+main section#content section#info-area > h2 {
+    width:100%;
+    text-align:center;
+    margin:.7rem 0;
+    color:var(--primary-color);
+}
+
+main section#content section#info-area span {
+    color:var(--second-color);
+    font-weight: bold;
+}
+
+main section#content section#info-area #sede p {
+    text-align: center;
+}

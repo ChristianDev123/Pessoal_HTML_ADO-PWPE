@@ -3,6 +3,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background:var(--primary-color);
+    height:5rem;
 }
 
 header #action-wrapper #openNav{
@@ -27,6 +28,7 @@ header nav div {
     padding:.5rem 0;
     transition: .7s all;
     text-align:center;
+    border-radius:1rem;
 }
 
 header nav div:hover {
